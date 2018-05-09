@@ -1,4 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700');
+
+.j-module .j-rss h1 a:link,
+.j-module .j-rss h1 a:visited,
+.j-module h1,
+.j-module h2,
+.j-module h3,
+.j-module h4,
+.j-static-page .j-rss h1 a:link,
+.j-static-page .j-rss h1 a:visited,
+.j-static-page h1,
+.j-static-page h2,
+.j-static-page h3,
+.j-static-page h4, 
+.jtpl-footer .j-rss h1 a:link,
+.jtpl-footer .j-rss h1 a:visited,
+.jtpl-footer h1,
+.jtpl-footer h2,
+.jtpl-footer h3,
+.jtpl-footer h4{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
 .jtpl-main{
   line-height: 1.9;
   color: #222;
+}
+
+.jtpl-breadcrumb{
+  display: none;
+}
+
+.jtpl-section-main{
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.content-options-inner h1:not(.cc-within-single-module-element):not(.j-blog-headline){
+
+}
+
+/*ボタンのスタイル*/
+.j-callToAction .j-calltoaction-link-style-1{
+  border: 1px solid #222;
+  background: #222;
+  color: #fafafa;
+  padding: 15px 40px;
+  border-radius: 0px;
+}
+
+.j-callToAction .j-calltoaction-link-style-1:hover{
+  background: #333;
+}
+
+.j-callToAction .j-calltoaction-link-style-2{
+  border: 1px solid #222;
+  color: #222;
+  background: transparent;
+  border-radius: 2px;
+  padding: 12px 40px;
+}
+
+.j-callToAction .j-calltoaction-link-style-2:hover{
+  background: #222;
+  color: #fafafa;
+}
+
+.j-callToAction .j-calltoaction-link-style-3{
+  border: 1px solid rgba(255,255,255,0.8);
+  color: #222;
+  background: transparent;
+  border-radius: 2px;
+  padding: 12px 40px;
+}
+
+.j-callToAction .j-calltoaction-link-style-3:hover{
+  background: rgba(255,255,255,0.2);
 }
