@@ -49,25 +49,11 @@
 }
 
 /*メインコンテンツの余白*/
-@media (min-width: 768px){
-  .jtpl-section-main{
-    margin-top: 120px;
-    margin-bottom: 120px;
-  }
-}
-@media (max-width: 767px){
+@media (min-width: 1170px){
   .jtpl-content__inner {
-      padding: 60px 10px;
+      padding: 130px 10px;
   }
 }
-
-
-@media (min-width: 1100px){
-  .jtpl-content__inner{
-    max-width: 75%;
-  }
-}
-
 
 
 @media (min-width: 768px){
