@@ -27,7 +27,7 @@
 }
 
 /*トップページのMVの高さだけ帰る*/
-.cc-page .jtpl-header{
+.cc-page-index .jtpl-header{
   min-height: 300px;
 }
 
