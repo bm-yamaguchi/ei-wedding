@@ -34,7 +34,7 @@
   max-width: 75%;
 }
 
-@media (min-width: 768px){
+@media (max-width: 768px){
   .jtpl-breadcrumb, .jtpl-content, .jtpl-footer__inner, .jtpl-header__inner, .jtpl-sidebar__inner{
     max-width: 100%;
   }
