@@ -73,10 +73,10 @@
   }
 }
 
-.content-options-inner h1:not(.cc-within-single-module-element):not(.j-blog-headline){
+.content-options h1:not(.cc-within-single-module-element):not(.j-blog-headline){
   text-transform: none;
-  font-weight: 500;
-  letter-spacing: 0.05em;
+  font-weight: 300;
+  letter-spacing: 0.08em;
   margin-bottom: 60px;
 }
 
