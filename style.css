@@ -21,6 +21,7 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+/* h1はモバイルでも中央揃え */
 .j-module .j-rss h1 a:link, .j-module .j-rss h1 a:visited, .j-module h1, .j-static-page .j-rss h1 a:link, .j-static-page .j-rss h1 a:visited, .j-static-page h1, .jtpl-footer .j-rss h1 a:link, .jtpl-footer .j-rss h1 a:visited, .jtpl-footer h1{
   text-align: center;
 }
@@ -29,7 +30,7 @@
 
 
 .jtpl-main{
-  line-height: 1.9;
+  line-height: 2.1;
   color: #222;
   font-family: 'Montserrat', 游ゴシック体, "Yu Gothic", YuGothic, -apple-system, BlinkMacSystemFont, arial, sans-serif;
 }
