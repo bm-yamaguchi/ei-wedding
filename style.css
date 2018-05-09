@@ -30,13 +30,31 @@
   font-family: 'Montserrat', 游ゴシック体, "Yu Gothic", YuGothic, -apple-system, BlinkMacSystemFont, arial, sans-serif;
 }
 
-.jtpl-breadcrumb, .jtpl-content, .jtpl-footer__inner, .jtpl-header__inner, .jtpl-sidebar__inner{
+.jtpl-breadcrumb, .jtpl-content, .jtpl-footer__inner, .jtpl-sidebar__inner{
   max-width: 75%;
 }
 
 @media (max-width: 768px){
-  .jtpl-breadcrumb, .jtpl-content, .jtpl-footer__inner, .jtpl-header__inner, .jtpl-sidebar__inner{
+  .jtpl-breadcrumb, .jtpl-content, .jtpl-footer__inner, .jtpl-sidebar__inner{
     max-width: 100%;
+  }
+}
+
+.jtpl-header__inner{
+  max-width: 100%
+  padding:0 15px;
+}
+
+@media (min-width: 768px){
+  .jtpl-navigation {
+      display: block;
+      margin-left: 20px;
+  }
+  .jtpl-navigation li{
+    margin-right: 15px;
+  }
+  .navigation-colors a, .navigation-colors a:link, .navigation-colors a:visited{
+    font-weight: 500;
   }
 }
 
