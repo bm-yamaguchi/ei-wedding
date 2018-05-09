@@ -36,6 +36,10 @@
   display: none !important;
 }
 
+/* カラムの余白 */
+.cc-m-hgrid-column{
+  margin-bottom: 20px;
+}
 
 
 .jtpl-main{
