@@ -61,11 +61,8 @@
     max-width: 100%;
     padding:0 15px;
   }
-  .jtpl-navigation {
-    display: block;
-  }
   .jtpl-navigation li{
-    margin-right: 15px;
+    padding: 0 7px;
   }
   .navigation-colors a, .navigation-colors a:link, .navigation-colors a:visited{
     font-weight: 500;
@@ -97,8 +94,32 @@
 }
 
 /*スマートフォンメニューの調整*/
-.jtpl-mobile-navigation__label{
-  left: 8px
+.jtpl-navigation__borders{
+  width: 24px;
+}
+
+@media (max-width: 1169px){
+  .jtpl-header {
+      padding-top: 50px;
+  }
+}
+
+.jtpl-navigation__borders, .jtpl-navigation__borders:after, .jtpl-navigation__borders:before{
+  border-top-width: 2px;
+}
+.jtpl-navigation__borders:after{
+  top: 7px;
+}
+
+.jtpl-mobile-topbar{
+  position: absolute;
+  top: 0;
+}
+
+.jtpl-mobile-navigation{
+  position: absolute;
+  top: 0;
+  padding-top: 32px;
 }
 
 /*ボタンのスタイル*/
