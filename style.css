@@ -21,6 +21,10 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.j-module .j-rss h1 a:link, .j-module .j-rss h1 a:visited, .j-module h1, .j-static-page .j-rss h1 a:link, .j-static-page .j-rss h1 a:visited, .j-static-page h1, .jtpl-footer .j-rss h1 a:link, .jtpl-footer .j-rss h1 a:visited, .jtpl-footer h1{
+  text-align: center;
+}
+
 
 
 
@@ -61,9 +65,12 @@
   display: none;
 }
 
-.jtpl-section-main{
-  margin-top: 120px;
-  margin-bottom: 120px;
+/*メインコンテンツの余白*/
+@media (min-width: 768px){
+  .jtpl-section-main{
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
 }
 
 .content-options-inner h1:not(.cc-within-single-module-element):not(.j-blog-headline){
@@ -71,6 +78,11 @@
   font-weight: 500;
   letter-spacing: 0.05em;
   margin-bottom: 60px;
+}
+
+/*スマートフォンメニューの調整*/
+.jtpl-mobile-navigation__label{
+  left: 8px
 }
 
 /*ボタンのスタイル*/
