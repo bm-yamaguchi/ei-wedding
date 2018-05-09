@@ -38,7 +38,7 @@
 
 
 @media (min-width: 1100px){
-  .jtpl-breadcrumb, .jtpl-content, .jtpl-footer__inner, .jtpl-sidebar__inner{
+  .jtpl-content__inner{
     max-width: 75%;
   }
 }
@@ -52,7 +52,6 @@
   }
   .jtpl-navigation {
     display: block;
-    margin-left: 20px;
   }
   .jtpl-navigation li{
     margin-right: 15px;
@@ -79,6 +78,10 @@
   font-weight: 500;
   letter-spacing: 0.05em;
   margin-bottom: 60px;
+}
+
+.jtpl-navigation__inner a:link, .jtpl-navigation__inner a:visited{
+  padding: 22px 15px;
 }
 
 /*スマートフォンメニューの調整*/
