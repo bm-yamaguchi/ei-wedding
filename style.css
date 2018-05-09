@@ -26,6 +26,15 @@
   text-align: center;
 }
 
+/*トップページのMVの高さだけ帰る*/
+.cc-page .jtpl-header{
+  min-height: 300px;
+}
+
+/* パンくず削除 */
+.jtpl-breadcrumbs{
+  display: none !important;
+}
 
 
 
@@ -35,6 +44,18 @@
   font-family: 'Montserrat', 游ゴシック体, "Yu Gothic", YuGothic, -apple-system, BlinkMacSystemFont, arial, sans-serif;
 }
 
+/*メインコンテンツの余白*/
+@media (min-width: 768px){
+  .jtpl-section-main{
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+}
+@media (max-width: 767px){
+  .jtpl-content__inner {
+      padding: 60px 10px;
+  }
+}
 
 
 @media (min-width: 1100px){
@@ -65,13 +86,7 @@
   display: none;
 }
 
-/*メインコンテンツの余白*/
-@media (min-width: 768px){
-  .jtpl-section-main{
-    margin-top: 120px;
-    margin-bottom: 120px;
-  }
-}
+
 
 .content-options h1:not(.cc-within-single-module-element):not(.j-blog-headline){
   text-transform: none;
