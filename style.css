@@ -26,6 +26,12 @@
   text-align: center;
 }
 
+@media (max-width: 767px){
+  .j-module .j-website-title-content, .j-module h1, .j-static-page .j-website-title-content, .j-static-page h1 {
+      font-size: 44px!important;
+  }
+}
+
 /*トップページのMVの高さだけ帰る*/
 .cc-page-index .jtpl-header{
   min-height: 300px;
@@ -52,6 +58,12 @@
 @media (min-width: 1170px){
   .jtpl-content__inner {
       padding: 130px 10px;
+  }
+}
+
+@media (max-width: 767px){
+  .jtpl-content__inner {
+      padding: 60px 12px;
   }
 }
 
