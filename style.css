@@ -40,14 +40,14 @@
   }
 }
 
-.jtpl-header__inner{
-  max-width: 100%
-  padding:0 15px;
-}
+
 
 @media (min-width: 768px){
-  .jtpl-navigation {
+  .jtpl-header__inner{
     max-width: 100%;
+    padding:0 15px;
+  }
+  .jtpl-navigation {
     display: block;
     margin-left: 20px;
   }
