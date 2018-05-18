@@ -32,6 +32,10 @@
   }
 }
 
+.content-options h2:not(.j-blog-headline):not(.j-blog-comment-counter){
+  font-size: 32px;
+}
+
 /*トップページのMVの高さだけ帰る*/
 .cc-page-index .jtpl-header{
   min-height: 300px;
@@ -140,12 +144,12 @@
 
 .cc-m-hgrid-column.last > div{
   padding-right: 0;
-  padding-left: 30px
+  padding-left: 30px;
 }
 
 @media (min-width: 768px){
   .cc-m-hgrid-column > div{
-    padding: 0
+    padding: 0;
   }
 }
 
