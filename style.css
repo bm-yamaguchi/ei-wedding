@@ -139,12 +139,12 @@
 }
 /*カラムの余白感を調整*/
 .cc-m-hgrid-column > div{
-  padding-right: 30px;
+  padding-right: 20px;
 }
 
 .cc-m-hgrid-column.last > div{
   padding-right: 0;
-  padding-left: 30px;
+  padding-left: 20px;
 }
 
 @media (max-width: 768px){
