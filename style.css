@@ -147,8 +147,9 @@
   padding-left: 30px;
 }
 
-@media (min-width: 768px){
-  .cc-m-hgrid-column > div{
+@media (max-width: 768px){
+  .cc-m-hgrid-column > div,
+  .cc-m-hgrid-column.last > div{
     padding: 0;
   }
 }
