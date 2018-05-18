@@ -133,6 +133,21 @@
   top: 0;
   padding-top: 32px;
 }
+/*カラムの余白感を調整*/
+.cc-m-hgrid-column > div{
+  padding-right: 30px;
+}
+
+.cc-m-hgrid-column.last > div{
+  padding-right: 0;
+  padding-left: 30px
+}
+
+@media (min-width: 768px){
+  .cc-m-hgrid-column > div{
+    padding: 0
+  }
+}
 
 /*ボタンのスタイル*/
 .j-callToAction .j-calltoaction-link-style-1{
