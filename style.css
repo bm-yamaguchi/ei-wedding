@@ -214,6 +214,11 @@ body {
   }
 }
 
+.jtpl-logo {
+  position: relative;
+  top: -23px;
+}
+
 /*ギャラリーの最大幅*/
 #page-1650006086 .j-gallery,
 #page-1650006386 .j-gallery {
@@ -344,8 +349,6 @@ body {
   border-radius: 0px;
 }
 
-/* ヘッダー */
-
 /* フッター */
 .jtpl-section-aside {
   background-color: #222;
@@ -358,13 +361,14 @@ body {
   margin-top: -20px;
 }
 .bm-footer-tel a {
-  text-decoration: none;
-  color: #fff;
+  text-decoration: none !important;
+  color: #fff !important;
 }
 
 @media (max-width: 768px) {
   .bm-footer-tel {
     margin-top: 0px;
+    font-size: 24px;
   }
   .bm-footer-tel a {
     border: 1px solid #9c9c9c;
