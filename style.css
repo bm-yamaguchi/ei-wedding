@@ -57,7 +57,7 @@ body {
 }
 
 /* スマートフォン時のロゴのサイズ */
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .jtpl-logo a img {
     max-width: 150px;
   }
@@ -121,7 +121,7 @@ body {
   margin-bottom: 12px;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .content-options
     h1:not(.cc-within-single-module-element):not(.j-blog-headline) {
     font-size: 1.9rem !important;
