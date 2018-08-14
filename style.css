@@ -146,14 +146,56 @@ body {
 }
 
 .jtpl-mobile-topbar {
-  position: absolute;
+  position: fixed;
   top: 0;
+  background: transparent;
+  z-index: 1000000;
 }
 
 .jtpl-mobile-navigation {
-  position: absolute;
+  position: fixed;
   top: 0;
   padding-top: 32px;
+  z-index: 10000;
+  top: 50px;
+}
+
+.jtpl-navigation__label {
+  top: 20px;
+  left: 20px;
+}
+
+.jtpl-navigation__checkbox:checked + .jtpl-main .jtpl-header::after {
+  position: fixed;
+  background: #222;
+}
+
+.jtpl-mobile-navigation__inner a:link,
+.jtpl-mobile-navigation__inner a:visited {
+  border: 0 !important;
+}
+
+.jtpl-navigation__checkbox:checked
+  + .jtpl-main
+  .jtpl-navigation__label
+  .jtpl-navigation__borders:after,
+.jtpl-navigation__checkbox:checked
+  + .jtpl-main
+  .jtpl-navigation__label
+  .jtpl-navigation__borders:before {
+  border-top-width: 2px;
+}
+.jtpl-navigation__checkbox:checked
+  + .jtpl-main
+  .jtpl-navigation__label
+  .jtpl-navigation__borders {
+  border-top-width: 2px;
+}
+.jtpl-navigation__checkbox:checked
+  + .jtpl-main
+  .jtpl-navigation__label
+  .jtpl-navigation__borders:after {
+  top: -3.5px;
 }
 /*カラムの余白感を調整*/
 .cc-m-hgrid-column > div {
@@ -297,6 +339,35 @@ body {
   border: 1px solid #222;
   background: #222;
   color: #fafafa !important;
-  padding: 15px 40px;
+  padding: 7px 30px;
+  margin-top: 8px;
   border-radius: 0px;
+}
+
+/* ヘッダー */
+
+/* フッター */
+.jtpl-section-aside {
+  background-color: #222;
+  font-size: 90%;
+}
+
+.bm-footer-tel {
+  text-align: center;
+  font-size: 39px;
+  margin-top: -20px;
+}
+.bm-footer-tel a {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .bm-footer-tel {
+    margin-top: 0px;
+  }
+  .bm-footer-tel a {
+    border: 1px solid #9c9c9c;
+    padding: 10px 15px;
+  }
 }
