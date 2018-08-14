@@ -220,6 +220,22 @@ body {
   }
 }
 
+.cc-pagemode-overlay #password,
+.com-meta input[type="text"],
+.com-meta input[type="date"],
+.com-meta textarea,
+.commententry input[type="text"],
+.commententry input[type="date"],
+.commententry textarea,
+.j-checkout__input-field,
+.j-formnew .cc-m-form-view-sortable input[type="text"],
+.j-formnew .cc-m-form-view-sortable input[type="date"],
+.j-formnew .cc-m-form-view-sortable input[type="email"],
+.j-formnew .cc-m-form-view-sortable textarea,
+.j-googlemaps .cc-map-route-start {
+  border-width: 1px !important;
+}
+
 /*ギャラリーの最大幅*/
 #page-1650006086 .j-gallery,
 #page-1650006386 .j-gallery {
