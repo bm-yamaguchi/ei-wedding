@@ -290,3 +290,13 @@ body {
     font-size: 16px;
   }
 }
+
+/* ブログ */
+.j-blogarticle .j-text p > a {
+  display: inline-block;
+  border: 1px solid #222;
+  background: #222;
+  color: #fafafa !important;
+  padding: 15px 40px;
+  border-radius: 0px;
+}
