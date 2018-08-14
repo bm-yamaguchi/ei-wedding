@@ -213,10 +213,11 @@ body {
     padding: 0;
   }
 }
-
-.jtpl-logo {
-  position: relative;
-  top: -23px;
+@media (max-width: 768px) {
+  .jtpl-logo {
+    position: relative;
+    top: -23px;
+  }
 }
 
 /*ギャラリーの最大幅*/
