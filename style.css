@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700");
 
+body {
+  overflow-x: hidden;
+}
+
 .j-module .j-rss h1 a:link,
 .j-module .j-rss h1 a:visited,
 .j-module h1,
@@ -172,6 +176,7 @@
 }
 
 /*ギャラリーの最大幅*/
+#page-1650006086 .j-gallery,
 #page-1650006386 .j-gallery {
   width: 100vw;
   position: relative;
