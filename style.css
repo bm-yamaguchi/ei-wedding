@@ -173,7 +173,12 @@
 
 /*ギャラリーの最大幅*/
 #page-1650006386 .j-gallery {
-  margin: 0 -130px;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
 }
 
 /*ボタンのスタイル*/
