@@ -244,15 +244,16 @@ body {
   text-transform: none;
   text-align: center;
   font-weight: 500;
-  font-size: 2.2rem;
+  font-size: 32px;
   letter-spacing: 0.15em;
-  margin-bottom: 48px;
+  margin-bottom: 60px;
 }
 
 @media (max-width: 768px) {
   .content-options
     h1:not(.cc-within-single-module-element):not(.j-blog-headline) {
-    font-size: 1.9rem !important;
+    font-size: 28px !important;
+    line-height: 1.5;
   }
 }
 
@@ -266,9 +267,6 @@ body {
 
 @media (max-width: 768px) {
   .bm-subtitle {
-    text-align: center;
-    letter-spacing: 0.3em;
-    font-weight: 400;
-    font-size: 22px;
+    font-size: 16px;
   }
 }
