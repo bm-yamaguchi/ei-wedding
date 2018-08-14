@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700");
 
 .j-module .j-rss h1 a:link,
 .j-module .j-rss h1 a:visited,
@@ -17,145 +17,160 @@
 .jtpl-footer h1,
 .jtpl-footer h2,
 .jtpl-footer h3,
-.jtpl-footer h4{
-  font-family: 'Montserrat', sans-serif;
+.jtpl-footer h4 {
+  font-family: "Montserrat", sans-serif;
 }
 
 /* h1はモバイルでも中央揃え */
-.j-module .j-rss h1 a:link, .j-module .j-rss h1 a:visited, .j-module h1, .j-static-page .j-rss h1 a:link, .j-static-page .j-rss h1 a:visited, .j-static-page h1, .jtpl-footer .j-rss h1 a:link, .jtpl-footer .j-rss h1 a:visited, .jtpl-footer h1{
+.j-module .j-rss h1 a:link,
+.j-module .j-rss h1 a:visited,
+.j-module h1,
+.j-static-page .j-rss h1 a:link,
+.j-static-page .j-rss h1 a:visited,
+.j-static-page h1,
+.jtpl-footer .j-rss h1 a:link,
+.jtpl-footer .j-rss h1 a:visited,
+.jtpl-footer h1 {
   text-align: center;
 }
 
-@media (max-width: 767px){
-  .j-module .j-website-title-content, .j-module h1, .j-static-page .j-website-title-content, .j-static-page h1 {
-      font-size: 44px!important;
+@media (max-width: 767px) {
+  .j-module .j-website-title-content,
+  .j-module h1,
+  .j-static-page .j-website-title-content,
+  .j-static-page h1 {
+    font-size: 44px !important;
   }
 }
 
-.content-options h2:not(.j-blog-headline):not(.j-blog-comment-counter){
+.content-options h2:not(.j-blog-headline):not(.j-blog-comment-counter) {
   font-size: 32px;
 }
 
 /*トップページのMVの高さだけ帰る*/
-.cc-page-index .jtpl-header{
+.cc-page-index .jtpl-header {
   min-height: 300px;
 }
 
 /* パンくず削除 */
-.jtpl-breadcrumbs{
+.jtpl-breadcrumbs {
   display: none !important;
 }
 
 /* カラムの余白 */
-.cc-m-hgrid-column{
+.cc-m-hgrid-column {
   margin-bottom: 20px;
 }
 
-
-.jtpl-main{
+.jtpl-main {
   line-height: 2.1;
   color: #222;
-  font-family: 'Montserrat', 游ゴシック体, "Yu Gothic", YuGothic, -apple-system, BlinkMacSystemFont, arial, sans-serif;
+  font-family: "Montserrat", 游ゴシック体, "Yu Gothic", YuGothic, -apple-system,
+    BlinkMacSystemFont, arial, sans-serif;
 }
 
 /*メインコンテンツの余白*/
-@media (min-width: 1170px){
+@media (min-width: 1170px) {
   .jtpl-content__inner {
-      padding: 130px 10px;
+    padding: 130px 10px;
   }
 }
 
-@media (max-width: 767px){
+@media (max-width: 767px) {
   .jtpl-content__inner {
-      padding: 60px 12px;
+    padding: 60px 12px;
   }
 }
 
-
-@media (min-width: 768px){
-  .jtpl-header__inner{
+@media (min-width: 768px) {
+  .jtpl-header__inner {
     max-width: 100%;
-    padding:0 15px;
+    padding: 0 15px;
   }
-  .jtpl-navigation li{
+  .jtpl-navigation li {
     padding: 0 7px;
   }
-  .navigation-colors a, .navigation-colors a:link, .navigation-colors a:visited{
+  .navigation-colors a,
+  .navigation-colors a:link,
+  .navigation-colors a:visited {
     font-weight: 500;
   }
 }
 
-.jtpl-breadcrumb{
+.jtpl-breadcrumb {
   display: none;
 }
 
-
-
-.content-options h1:not(.cc-within-single-module-element):not(.j-blog-headline){
+.content-options
+  h1:not(.cc-within-single-module-element):not(.j-blog-headline) {
   text-transform: none;
-  font-weight: 500;
-  letter-spacing: 0.08em;
+  font-weight: 400;
+  font-size: 2.4rem;
+  letter-spacing: 0.3em;
 }
 
 /* メインビジュアルの高さ調整 */
-@media (min-width: 1170px){
+@media (min-width: 1170px) {
   .cc-indexpage .jtpl-header {
-      height: 95vh;
-      height: calc(100vh - 65px);
+    height: 95vh;
+    height: calc(100vh - 65px);
   }
 }
 
-.jtpl-navigation__inner a:link, .jtpl-navigation__inner a:visited{
+.jtpl-navigation__inner a:link,
+.jtpl-navigation__inner a:visited {
   padding: 22px 15px;
 }
 
 /*スマートフォンメニューの調整*/
-.jtpl-navigation__borders{
+.jtpl-navigation__borders {
   width: 24px;
 }
 
-@media (max-width: 1169px){
+@media (max-width: 1169px) {
   .jtpl-header {
-      padding-top: 50px;
+    padding-top: 50px;
   }
 }
 
-.jtpl-navigation__borders, .jtpl-navigation__borders:after, .jtpl-navigation__borders:before{
+.jtpl-navigation__borders,
+.jtpl-navigation__borders:after,
+.jtpl-navigation__borders:before {
   border-top-width: 2px;
 }
-.jtpl-navigation__borders:after{
+.jtpl-navigation__borders:after {
   top: 7px;
 }
 
-.jtpl-mobile-topbar{
+.jtpl-mobile-topbar {
   position: absolute;
   top: 0;
 }
 
-.jtpl-mobile-navigation{
+.jtpl-mobile-navigation {
   position: absolute;
   top: 0;
   padding-top: 32px;
 }
 /*カラムの余白感を調整*/
-.cc-m-hgrid-column > div{
+.cc-m-hgrid-column > div {
   padding-right: 20px;
 }
 
-.cc-m-hgrid-column.last > div{
+.cc-m-hgrid-column.last > div {
   padding-right: 0;
   padding-left: 20px;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .cc-m-hgrid-column > div,
-  .cc-m-hgrid-column.last > div{
+  .cc-m-hgrid-column.last > div {
     padding: 0;
   }
 }
 
 /*ボタンのスタイル*/
-.j-callToAction .j-calltoaction-link-style-1{
+.j-callToAction .j-calltoaction-link-style-1 {
   border: 1px solid #222;
   background: #222;
   color: #fafafa !important;
@@ -163,11 +178,11 @@
   border-radius: 0px;
 }
 
-.j-callToAction .j-calltoaction-link-style-1:hover{
+.j-callToAction .j-calltoaction-link-style-1:hover {
   background: #333;
 }
 
-.j-callToAction .j-calltoaction-link-style-2{
+.j-callToAction .j-calltoaction-link-style-2 {
   border: 1px solid #222;
   color: #222;
   background: transparent;
@@ -175,29 +190,29 @@
   padding: 12px 40px;
 }
 
-.j-callToAction .j-calltoaction-link-style-2:hover{
+.j-callToAction .j-calltoaction-link-style-2:hover {
   background: #222;
   color: #fafafa;
 }
 
-.j-callToAction .j-calltoaction-link-style-3{
-  border: 1px solid rgba(255,255,255,0.8);
+.j-callToAction .j-calltoaction-link-style-3 {
+  border: 1px solid rgba(255, 255, 255, 0.8);
   color: #222;
   background: transparent;
   border-radius: 0;
   padding: 12px 40px;
 }
 
-.j-callToAction .j-calltoaction-link-style-3:hover{
-  background: rgba(255,255,255,0.2);
+.j-callToAction .j-calltoaction-link-style-3:hover {
+  background: rgba(255, 255, 255, 0.2);
 }
 
-.bm-contents-01{
+.bm-contents-01 {
   border: 1px solid #ccc;
   padding: 40px;
 }
 
-.bm-contents-02{
+.bm-contents-02 {
   background-color: #222;
   color: #fff;
   padding: 40px;
