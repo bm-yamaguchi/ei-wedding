@@ -104,9 +104,11 @@
 .content-options
   h1:not(.cc-within-single-module-element):not(.j-blog-headline) {
   text-transform: none;
-  font-weight: 400;
-  font-size: 2.4rem;
+  font-weight: 500;
+  font-size: 2.2rem;
   letter-spacing: 0.3em;
+  margin-bottom: 12px;
+  color: #555;
 }
 
 /* メインビジュアルの高さ調整 */
@@ -167,6 +169,11 @@
   .cc-m-hgrid-column.last > div {
     padding: 0;
   }
+}
+
+/*ギャラリーの最大幅*/
+#page-1650006386 .j-gallery {
+  margin: 0 -130px;
 }
 
 /*ボタンのスタイル*/
