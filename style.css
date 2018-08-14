@@ -49,6 +49,7 @@ body {
 
 .content-options h2:not(.j-blog-headline):not(.j-blog-comment-counter) {
   font-size: 32px;
+  line-height: 1.5;
 }
 
 /*トップページのMVの高さだけ帰る*/
@@ -56,7 +57,11 @@ body {
   min-height: 300px;
 }
 
-/* スマートフォン時のロゴのサイズ */
+/* ロゴのサイズ */
+.jtpl-logo a img {
+  max-width: 190px;
+}
+
 @media (max-width: 768px) {
   .jtpl-logo a img {
     max-width: 150px;
@@ -110,22 +115,6 @@ body {
 
 .jtpl-breadcrumb {
   display: none;
-}
-
-.content-options
-  h1:not(.cc-within-single-module-element):not(.j-blog-headline) {
-  text-transform: none;
-  font-weight: 500;
-  font-size: 2.2rem;
-  letter-spacing: 0.3em;
-  margin-bottom: 12px;
-}
-
-@media (max-width: 768px) {
-  .content-options
-    h1:not(.cc-within-single-module-element):not(.j-blog-headline) {
-    font-size: 1.9rem !important;
-  }
 }
 
 /* メインビジュアルの高さ調整 */
@@ -197,6 +186,7 @@ body {
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
+  padding: 0;
 }
 
 /*ボタンのスタイル*/
@@ -246,4 +236,39 @@ body {
   background-color: #222;
   color: #fff;
   padding: 40px;
+}
+
+/* h1をオーバーライド */
+.content-options
+  h1:not(.cc-within-single-module-element):not(.j-blog-headline) {
+  text-transform: none;
+  text-align: center;
+  font-weight: 500;
+  font-size: 2.2rem;
+  letter-spacing: 0.15em;
+  margin-bottom: 48px;
+}
+
+@media (max-width: 768px) {
+  .content-options
+    h1:not(.cc-within-single-module-element):not(.j-blog-headline) {
+    font-size: 1.9rem !important;
+  }
+}
+
+/* オリジナルサブタイトル */
+.bm-subtitle {
+  text-align: center;
+  letter-spacing: 0.3em;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+@media (max-width: 768px) {
+  .bm-subtitle {
+    text-align: center;
+    letter-spacing: 0.3em;
+    font-weight: 400;
+    font-size: 22px;
+  }
 }
