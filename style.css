@@ -47,11 +47,6 @@ body {
   }
 }
 
-.content-options h2:not(.j-blog-headline):not(.j-blog-comment-counter) {
-  font-size: 32px;
-  line-height: 1.5;
-}
-
 /*トップページのMVの高さだけ帰る*/
 .cc-page-index .jtpl-header {
   min-height: 300px;
@@ -255,6 +250,30 @@ body {
     font-size: 26px !important;
     line-height: 1.5;
     margin-bottom: 32px;
+  }
+}
+
+/* h2をオーバーライド */
+.content-options h2:not(.j-blog-headline):not(.j-blog-comment-counter) {
+  font-size: 27px !important;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .content-options h2:not(.j-blog-headline):not(.j-blog-comment-counter) {
+    font-size: 24px !important;
+  }
+}
+
+/* h3をオーバーライド */
+.content-options h3:not(.j-blog-headline):not(.j-blog-comment-counter) {
+  font-size: 23px !important;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .content-options h3:not(.j-blog-headline):not(.j-blog-comment-counter) {
+    font-size: 20px !important;
   }
 }
 
