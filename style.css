@@ -382,6 +382,10 @@ body {
   font-size: 90%;
 }
 
+.jtpl-section-aside a {
+  color: #fff !important;
+}
+
 .bm-footer-tel {
   text-align: center;
   font-size: 39px;
@@ -409,7 +413,6 @@ body {
 }
 
 /* トップのロゴはアニメーション */
-/* スタイルの状態変化を「my-fade-in」という名前で定義 */
 @keyframes my-fade-in {
   from {
     opacity: 0;
