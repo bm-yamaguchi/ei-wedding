@@ -407,6 +407,12 @@ body {
   }
 }
 
+/* hr */
+.j-hr hr {
+  border-top-width: 0;
+  width: 50%;
+}
+
 /* トップへ戻る */
 .cc-FloatingButtonBarContainer li a {
   border-radius: 0;
