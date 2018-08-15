@@ -234,6 +234,7 @@ body {
 .j-formnew .cc-m-form-view-sortable textarea,
 .j-googlemaps .cc-map-route-start {
   border-width: 1px !important;
+  color: #222;
 }
 
 /*ギャラリーの最大幅*/
@@ -400,4 +401,9 @@ body {
     border: 1px solid #9c9c9c;
     padding: 10px 15px;
   }
+}
+
+/* トップへ戻る */
+.cc-FloatingButtonBarContainer li a {
+  border-radius: 0;
 }
