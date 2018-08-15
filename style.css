@@ -465,6 +465,12 @@ body {
   z-index: 15000;
 }
 
+@media (max-width: 768px) {
+  .bm-scroll-button {
+    font-size: 0;
+  }
+}
+
 .bm-scroll-button::after {
   content: "";
   left: 50%;
