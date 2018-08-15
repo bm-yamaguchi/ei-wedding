@@ -407,3 +407,19 @@ body {
 .cc-FloatingButtonBarContainer li a {
   border-radius: 0;
 }
+
+/* トップのロゴはアニメーション */
+/* スタイルの状態変化を「my-fade-in」という名前で定義 */
+@keyframes my-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#page-1650006086 .jtpl-logo {
+  animation-name: my-fade-in;
+  animation-duration: 3s;
+}
