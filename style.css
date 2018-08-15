@@ -432,3 +432,16 @@ body {
   animation-name: my-fade-in;
   animation-duration: 3s;
 }
+
+/* ナビの固定化 */
+.jtpl-navigation--fixed-top .jtpl-navigation__inner {
+  background-color: #fff;
+  box-shadow: 0 1px 12px rgba(0, 0, 0, 0.05);
+}
+
+.jtpl-navigation--fixed-top .j-nav-current > a:link,
+.jtpl-navigation--fixed-top .j-nav-current > a:visited,
+.jtpl-navigation--fixed-top .j-nav-parent > a:link,
+.jtpl-navigation--fixed-top .j-nav-parent > a:visited {
+  color: #4e5056;
+}
