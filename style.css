@@ -434,6 +434,9 @@ body {
 }
 
 /* ナビの固定化 */
+.jtpl-navigation__inner {
+  transition: ease 1s;
+}
 .jtpl-navigation--fixed-top .jtpl-navigation__inner {
   background-color: #fff;
   box-shadow: 0 1px 12px rgba(0, 0, 0, 0.05);
@@ -444,4 +447,35 @@ body {
 .jtpl-navigation--fixed-top .j-nav-parent > a:link,
 .jtpl-navigation--fixed-top .j-nav-parent > a:visited {
   color: #4e5056;
+}
+
+/* Scrool Down */
+.bm-scroll-button {
+  display: inline;
+  padding: 15px;
+  left: 50%;
+  position: absolute;
+  top: auto;
+  bottom: 50px;
+  opacity: 1;
+  transform: translateX(-50%);
+  transition: opacity 300ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  color: #fff;
+  font-size: 12px;
+  font-family: "futura-pt", sans-serif;
+  z-index: 15000;
+}
+
+.bm-scroll-button::after {
+  content: "";
+  left: 50%;
+  position: absolute;
+  top: auto;
+  bottom: -20px;
+  background-color: #fff;
+  height: 20px;
+  margin: 0 0 0 -0.5px;
+  width: 1px;
+  animation: btnScrollBar 1000ms 0s infinite normal
+    cubic-bezier(0.645, 0.045, 0.355, 1) backwards;
 }
