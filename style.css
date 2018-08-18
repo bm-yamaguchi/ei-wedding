@@ -342,6 +342,11 @@ body {
   }
 }
 
+/* リスト */
+.j-text ul > li {
+  margin-bottom: 15px;
+}
+
 /* オリジナルサブタイトル */
 .bm-subtitle {
   text-align: center;
